@@ -33,7 +33,7 @@ public class SoalLogic4 {
 
 				if (c == 2) {
 
-					jlh = (c - 1) * n2;
+					jlh = (c - 1) + n2;
 					deret[i] = jlh;
 					System.out.print(jlh + "\t");
 

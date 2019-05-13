@@ -53,6 +53,7 @@ public class SoalLogic3 {
 		int arr[] = new int[n];
 		// arr[0] = o;
 		int angka = o;
+		
 		for (int i = 0; i < n; i++) {
 			if (i % (m + 1) == m) {
 				arr[i] = m;

@@ -23,7 +23,7 @@ public class SoalLogic1 {
 			//rumus agar penjumlahan setiap diagonalnya ditambah selisih yg terus bertambah
 			awal = awal + (a + 2);
 		}
-		// mencari deret 2
+		// buat deret 2
 		int[] deret2 = new int[n];
 		int awal2 = 2;
 		//looping karna selisih deret terus bertambah, tidak tetap. 

@@ -12,11 +12,21 @@ public class SoalLogic5 {
 		int n = input.nextInt();
 		int arr[][] = new int[n][n];
 		int[] deret = new int[n];
-		int awal = 1;
-		int a = 0;
+		
+		for (int i = 0; i < n ; i++) {
+			
+		}{
+			
+		}
+		
 		
 		
        
+	
+	
+	//static int[] deretAngka(int n) {
+		
 	}
+
 
 }
