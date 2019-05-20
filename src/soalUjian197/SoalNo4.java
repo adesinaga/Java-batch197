@@ -1,12 +1,12 @@
-package day02;
+package soalUjian197;
 
 import java.util.Scanner;
 
-public class SoalLogic5 {
+public class SoalNo4 {
+
 	protected static Scanner input;
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		System.out.print("Input kalimat : ");
 
@@ -36,11 +36,14 @@ public class SoalLogic5 {
 		if (word.length() > 2) {
 			// Huruf pertama tetap
 			ret.append(word.charAt(0));
-			
-			 for (int i = 1; i < word.length()/2; i++) {
-			          ret.append(replacer); 
-			          }
-			
+			/*
+			 * //Ganti isi Kata for (int i = 1; i < word.length() - 1; i++) {
+			 * ret.append(replacer); }
+			 */
+
+			for (int i = 0; i < word.length() - 1; i++) {
+				ret.append(replacer);
+			}
 
 			// Huruf terakhir kata tetap
 			ret.append(word.charAt(word.length() - 1));
@@ -49,4 +52,5 @@ public class SoalLogic5 {
 
 		return word;
 	}
+
 }

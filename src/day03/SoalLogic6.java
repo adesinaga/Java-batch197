@@ -12,7 +12,7 @@ public class SoalLogic6 {
 		System.out.println("masukkan M");
 		int m = input.nextInt();
 
-		// deklarasi deret
+ 		// deklarasi deret
 		int[] deret = deretAngka(n, m);
 		for (int i = 0; i < n; i++) {
 			System.out.print(deret[i] + "\t");

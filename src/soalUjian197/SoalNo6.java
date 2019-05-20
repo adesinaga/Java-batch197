@@ -1,12 +1,12 @@
-package day03;
-
+package soalUjian197;
+import java.util.Scanner;
 import java.util.Arrays;
 
-public class MiniMaxSum {
+public class SoalNo6 {
 
 	public static void main(String[] args) {
 		// 1 2 4 7 8 6 9
-		int[] arrayInput = new int[] {1,2,4,7,8, 6, 9};
+		int[] arrayInput = new int[] {1,2,3,10,20};
 		Arrays.sort(arrayInput);
 		for (int i = 0; i < arrayInput.length; i++) {
 			System.out.print(arrayInput[i] + " ");
@@ -27,5 +27,4 @@ public class MiniMaxSum {
 		System.out.println("\nNilai Min :" +SumMin );
 		System.out.println("Nilai Max :" +SumMax );
     }
-
 }
